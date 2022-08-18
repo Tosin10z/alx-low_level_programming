@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _isalpha - checks for alphabetic character
+ * _islower - checks for lowercase character
  * @c: is the int that will be used for the arguement of the function
  * Return: 0
  */
-int _isalpha(int c)
+int _islower(int c)
 {
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
